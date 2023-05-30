@@ -1,0 +1,289 @@
+
+/* Roboto Web Font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');
+
+/* BASIC RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* ELEMENT RULES */
+html {
+  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  min-height: 80px;
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+footer {
+  background-color: #1F2937;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+li {}
+
+a {
+  text-decoration: none;
+  color: #dddddd;
+}
+
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8; 
+  padding-bottom: 20px;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 900;
+  padding-bottom: 20px;
+  color: #1F2937;
+}
+
+
+
+
+/* navigation section */
+
+nav ul li a:hover {
+  color:#3882F6
+}
+
+#navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ .logo {
+  color: #F9FAF8;
+  font-weight: 900;
+  font-size: 20px;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  padding-left:26px;
+  padding-right: 40px;
+}
+
+ .nav-links {
+  margin-left: auto;
+  padding-right:26px;
+  padding-left:26px;
+  min-height: 80px;
+  display:flex;
+  align-items: center;
+  flex-basis: auto;
+}
+
+
+/*  hero section */
+
+#hero {
+  background-color:#1F2937 ;
+  color: white;
+  min-height: 300px;
+}
+
+
+.hero-content {
+  display: flex;
+  flex-basis: 360px;
+  flex-grow:0.6;
+  flex-shrink: 0;
+  flex-direction: column;
+  margin-bottom: 60px;
+  padding: 0 20px ;
+}
+
+.hero-content p {
+  color: #E5E7EB;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.hero-image {
+  margin-bottom: 40px;
+  margin-right: 20px;
+  margin-left: 20px;
+  flex-basis: 360px;
+  flex-grow: 0.5;
+  background-image: url(https://source.unsplash.com/8cxJzVpGKk8/520x240);
+  background-size: cover;
+  min-height: 240px;
+  max-width: 520px;
+}
+
+.button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-weight: 700;
+  text-align: center;
+  padding: 8px 30px;
+  border-radius: 10px;
+  width: 150px;
+}
+
+
+/* information section */
+
+#information {
+  background-color: #F9FAF8;
+  flex-direction: column;
+  /* padding: 20px 0; */
+}
+
+.info-heading{
+  margin: 0;
+  padding: 0;
+}
+
+.info-heading > h2 {
+  /* border: 1px solid peru; */
+  padding: 40px 0 50px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:60px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.card {
+  flex-basis: 160px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.card > p {
+  padding-top: 40px;
+}
+
+.box {
+  border: 4px solid #3882F6;
+  border-radius: 10px;
+  height: 160px;
+}
+
+
+/* testimonials section*/
+
+#testimonial {
+  background-color: #E5E7EB;
+  color: #1F2937;
+  min-height: 300px;
+  padding: 40px;
+}
+
+#testimonial .container-middle {
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 800px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.attribution {
+  font-weight: 700;
+  align-self: flex-end;
+  margin:0;
+  padding:0;
+}
+
+
+/* engagement section  */
+
+#engagement {
+  background-color: #F9FAF8;
+}
+
+#engagement .container-middle {
+  justify-content: center;
+  padding: 60px 0;
+  margin: 0 20px
+}
+
+.action-box {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-weight: 700;
+  padding: 40px 80px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-basis:900px;
+}
+
+.action-left {
+  align-self: center;
+  margin-bottom: 30px;
+}
+
+.action-right {
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.action-headline {
+  font-size: 26px;
+}
+
+.action-text{
+  font-weight: 400;
+}
+
+.outline-button {
+  border: 2px solid #F9FAF8;
+  border-radius: 10px;
+  padding: 6px 30px;
+}
+
+.outline-button:hover {
+  color:gold;
+  border:2px solid gold;
+}
