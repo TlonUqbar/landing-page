@@ -117,6 +117,12 @@ nav ul li a:hover {
   padding-right: 40px;
 }
 
+.logo:hover {
+  cursor: pointer;
+  color: orange;
+}
+
+
 #navbar .container-middle .nav-links {
   margin-left: auto;
   padding-right:26px;
@@ -165,7 +171,7 @@ nav ul li a:hover {
   margin-left: 20px;
   flex-basis: 360px;
   flex-grow: 0.5;
-  background-image: url(https://source.unsplash.com/8cxJzVpGKk8/520x240);
+  background-image: url(https://source.unsplash.com/4hbJ-eymZ1o/520x240);
   background-size: cover;
   min-height: 240px;
   max-width: 520px;
@@ -179,6 +185,12 @@ nav ul li a:hover {
   padding: 8px 30px;
   border-radius: 10px;
   width: 150px;
+}
+
+.button:hover {
+  border: 2px solid gold;
+  color: gold;
+  padding: 6px 28px;
 }
 
 
@@ -223,7 +235,11 @@ nav ul li a:hover {
   padding-bottom: 40px;
 }
 
-.card > p {
+.card  a {
+  color: black;
+}
+
+.card a p {
   padding-top: 40px;
 }
 
@@ -233,7 +249,43 @@ nav ul li a:hover {
   height: 160px;
 }
 
+.html-css {
+  background-image: url("./images/html-css.png");
+  background-size: contain;
+}
 
+.html-css:hover {
+  box-shadow: 10px 10px 75px orange , -10px -10px 75px orange ;
+}
+
+.javascript {
+  background-image: url("./images/ts-js.png");
+  background-size: contain;
+}
+
+.javascript:hover {
+    box-shadow: 10px 10px 75px yellow , -10px -10px 75px yellow ;
+
+}
+
+.ruby-rails {
+  background-image: url("./images/rails-ruby.png");
+  background-size: contain;
+}
+
+.ruby-rails:hover {
+   box-shadow: 10px 10px 75px crimson, -10px -10px 75px crimson ;
+}
+
+.python-ml {
+  background-image: url("./images/python.png");
+  background-size: cover;
+}
+
+.python-ml:hover {
+    box-shadow: 10px 10px 75px orangered , -10px -10px 75px orangered;
+
+}
 
 /* testimonial section */
 
@@ -317,6 +369,12 @@ nav ul li a:hover {
 }
 
 .outline-button:hover {
-  color:gold;
-  border:2px solid gold;
+  color: yellow;
+  text-shadow: 1px 2px 2px #000 ;
+  border:2px solid midnightblue;
+  box-shadow: -50px 0px 70px gold , 
+              50px 0px 70px gold, 
+              0px -25px 70px gold ,  
+              0px 25px 70px gold ;
+  cursor: pointer;
 }
